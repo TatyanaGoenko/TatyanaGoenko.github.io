@@ -3,15 +3,12 @@
 	background-repeat:repeat-x;
 	}
 .wrapper{
-  width:60%;
-  height:900px;
+  width:1200px;
+  height:910px;
   background-color:white;
   margin: 0 auto; 
   box-shadow: 0 0 10px rgba(0,0,0,1.5);
 }
-.header{
-	height:164px;
-	}
    .logo img {
 	padding-left:37px;
 	float:left;
@@ -34,15 +31,15 @@
 .contries {
     font: 10px Tahoma,sans-serif;
 	color: #128aa7;
-	position:absolute;
-	right: 400px;
-	bottom:800px;
+	float:right;
+	margin-left:380px;
+	margin-top:10px;
 	}
 .Indiya,.Nepal,.Tibet,.Butan,.Sri_Lanka,.Maldivi{
 	display:block;
 	float:left;
 	width:60px;
-	}
+		}
 .contries p{
     white-space: pre;
 	text-align:center;
@@ -84,11 +81,12 @@ ul.menu > li > a {
 ul.submenu {
     display: none;   
     position: absolute;
-    width: 110px;
+    width: 120px;
     top: 36px;
-    left: 40px;
+    left: 30px;
     background-color: #303030;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	z-index:1;
   }
   ul.submenu > li {
     display: block;
@@ -112,8 +110,8 @@ ul.menu > li:hover > ul.submenu {
     position:relative;
 }
 .leftColumn{
-    width: 19.5%;
     float: left;
+	width:250px;
     background: #edeef0;
     padding-bottom: 20000px;
     margin-bottom: -20000px;
@@ -126,23 +124,22 @@ ul.menu > li:hover > ul.submenu {
     font: 18px Tahoma,sans-serif;
     padding-top:8px;
     padding-bottom:8px;
- }
+	}
 .centerColumn {
-    width: 60%;
     float: left;
     padding-bottom: 20000px;
     margin-bottom: -20000px;
-	margin-right:2px;
+
 }
 .centerColumn p{
-    padding-top:8px;
+	padding-top:8px;
     padding-bottom:8px;
     font: 18px Tahoma,sans-serif;
     text-align:center;
  }
 .rightColumn {
-    width: 20%;
-    float: left;
+	float: right;
+	width:250px;
     background: #edeef0;
     padding-bottom: 20000px;
     margin-bottom: -20000px;
@@ -155,8 +152,11 @@ ul.menu > li:hover > ul.submenu {
     padding-top:8px;
     padding-bottom:8px;
  }
+ .footer{
+	 clear:both;
+ }
  .footer p{
-	 margin-top:20px;
+	 margin-top:10px;
 	 text-align:center;
 	 font: 12px Tahoma,sans-serif;
 	 color: #b7cddb;
