@@ -1,15 +1,19 @@
  body{
-	background-image:url(../img/groundwork.png);
-	background-repeat:repeat-x;
+	background-image:url(../img/groundwork1.png);
+	background-repeat:repeat;
 	}
+	
 .wrapper{
   width:1200px;
-  height:910px;
+  height:946px;
   background-color:white;
   margin: 0 auto; 
   box-shadow: 0 0 10px rgba(0,0,0,1.5);
 }
-   .logo img {
+.header {
+	height:200px;
+}  
+  .logo img {
 	padding-left:37px;
 	float:left;
 	}
@@ -24,7 +28,7 @@
 	float:right;
 	font: 12px Tahoma,sans-serif;
 	color: #128aa7;
-	margin-top:10px;
+	margin-top:15px;
 	padding-right:30px;
 	line-height:20px;
 }
@@ -33,7 +37,7 @@
 	color: #128aa7;
 	float:right;
 	margin-left:380px;
-	margin-top:10px;
+	margin-top:35px;
 	}
 .Indiya,.Nepal,.Tibet,.Butan,.Sri_Lanka,.Maldivi{
 	display:block;
@@ -157,6 +161,7 @@ ul.menu > li:hover > ul.submenu {
  }
  .footer p{
 	 margin-top:10px;
+	 margin-bottom:10px;
 	 text-align:center;
 	 font: 12px Tahoma,sans-serif;
 	 color: #b7cddb;
