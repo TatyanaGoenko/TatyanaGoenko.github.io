@@ -7,12 +7,12 @@ body{
 	background-color:white;
 }
 header{
-	height:50px;
+	height:54px;
 }
 .telephone{
 	float:left;
-	margin-left:53px;
-	margin-top:20px;
+	margin-left:51px;
+	margin-top:22px;
 	font: 18px Arial,sans-serif;
 	color:#5e696d;
     }
@@ -23,11 +23,11 @@ header{
 .autorization {
 	float:left;
 	width:495px;
-	height:27px;
+	height:24x;
 	background: linear-gradient(to top, #0d3458, #1f6787);
 	border-radius: 3px;
 	box-shadow:3px 3px 10px rgba(180,180,180,.75);
-	margin:15px 0px 0px 18px;
+	margin:18px 0px 0px 18px;
 }
 .autorization img{
 	float:left;
@@ -68,10 +68,10 @@ header{
 nav{
 	float:left;
 	width:76px;
-	height:19px;
+	height:20px;
 	background-color:white;
 	border: solid 1px #d3d8da;
-	margin:16px 29px 0px 15px;
+	margin:18px 29px 0px 15px;
 	border-radius: 34px;
 	box-shadow:2px 1px 5px rgba(209,214,216,.75);
 }
@@ -80,11 +80,11 @@ nav img{
 	
 }
 .logo img{
-	padding:0px 46px 5px 46px;
+	padding:0px 46px 4px 46px;
 }
 .mainmenu{
 	width:912px;
-	height:33px;
+	height:34px;
 	margin: 0 auto; 
 	background: linear-gradient(to top, #030303, #505860);
 	border-radius: 5px;
@@ -93,7 +93,7 @@ nav img{
 .mainmenu li{
 	float:left;
 	font: 13.64px Lucida Sans Unicode,Arial,sans-serif;
-	margin:6px 33px 12px -1px;
+	margin:7px 35px 12px -3px;
 	}
 .mainmenu li a{
 	color:#b1bcc0;
@@ -121,8 +121,8 @@ nav img{
 	height:33px;
 	font: 11px Arial,sans-serif;
 	color:#929b9f;
-	margin-top:3px;
-	margin-right:24px;
+	margin-top:5px;
+	margin-right:25px;
 	}
 .koshik a{
 	margin-bottom:2px;
@@ -139,12 +139,12 @@ nav img{
     width: 925px;
     margin-left: 35px;
 	clear:both;
-	margin-bottom: 14px;
+	margin-bottom: 5px;
 }
 .findPoAvto{
 	width:413px;
-    height:134px;
-	margin:5px 0px 5px 15px;
+    height:133px;
+	margin:5px 0px 5px 14px;
 	border: solid 1px #b8b8b9;
 	border-radius: 22px;
 	box-shadow:2px 4px 7px rgba(132,132,132,.75);
@@ -175,7 +175,7 @@ nav img{
 	font: 10px Arial,sans-serif;
 	color:#154468;
 	font-weight: bold;
-	margin-top:-7px;
+	margin-top:-4px;
 	letter-spacing: 0.5px;
 }
 .findPoAvto form{
@@ -186,20 +186,20 @@ nav img{
 	clear:both;
 }
 .findPoAvto aside{
-	margin-top:1px;
+	margin-top:3px;
 	margin-left:17px;
 	width:172px;
 	}
 .disc_left{
 	width:177px;
-	height:20px;
+	height:19px;
 	line-height:8px;
 	margin-bottom:3px;
 	vertical-align:middle;	
 	}
 .disc_left p,span{
 display:inline-block;
-line-height:4px;
+line-height:8px;
 margin-bottom:1px;
 }
 .markcar{
@@ -220,7 +220,7 @@ width:54px;
 margin-right:46px;
 }
 .complekt{
-margin-top:-3px;
+margin-top:0px;
 }
 .complekt1{
 text-align:center;
@@ -257,7 +257,7 @@ margin-bottom:1px;
 	border:none;
 	padding:0px;
 	margin-right: 21px;
-    margin-top: -6px;
+    margin-top: -3px;
 	clear:both;
 }
 .findTires{
@@ -266,7 +266,7 @@ margin-bottom:1px;
 	margin:5px 0px 11px 12px;
 	border: solid 1px #b8b8b9;
 	font: 10px Lucida Sans Unicode, Arial,sans-serif;
-	border-radius: 18px;
+	border-radius: 21px;
 	box-shadow:2px 4px 7px rgba(132,132,132,.75);
     float:left;
 	  }
@@ -282,19 +282,19 @@ margin-bottom:1px;
 	}
 .tires1 input, .tires2 input{
 background: url(../img/arrow1.png) #fff no-repeat right center; 
-width:50px;
+width:48px;
 height:13px;
 color:#000000;
 font: 11px Arial,sans-serif;
 }
 .tires1, .tires2{
-	width:160px;
+	width:165px;
 	height:15px;
-	margin-left:17px;
-	padding-bottom:14px;
+	margin-left:21px;
+	padding-bottom:16px;
 }
 .tires2{
-	margin-left:41px;
+	margin-left:47px;
 	font: 11px Arial,sans-serif;
 	margin-top:1px;
 	padding-bottom:0px;
@@ -313,14 +313,14 @@ font: 11px Arial,sans-serif;
 }
 .season{
     font: 10px Lucida Sans Unicode,Arial,sans-serif;
-	margin-left:14px;
+	margin-left:15px;
 	margin-top:5px;
-	height:2px;
+	height:1px;
 }
 .season1{
 	font: 12px Lucida Sans Unicode,Arial,sans-serif;
 	margin-left:50px;
-	height:14px;
+	height:13px;
 }
 .season1 span{
 	vertical-align:middle;
@@ -342,8 +342,8 @@ font: 11px Arial,sans-serif;
 	background:none;
 	border:none;
 	padding:0px;
-	margin-right: 20px;
-    margin-top: -8px;
+	margin-right: 19px;
+    margin-top: -10px;
 	clear:both;
 }
 .findDisc{
@@ -351,7 +351,7 @@ font: 11px Arial,sans-serif;
     height:133px;
 	margin:4px 0px 11px 11px;
 	border: solid 1px #b8b8b9;
-	border-radius: 19px;
+	border-radius: 14px;
 	box-shadow:2px 4px 7px rgba(132,132,132,.75);
 	float:left;
 	}
@@ -363,7 +363,7 @@ font: 11px Arial,sans-serif;
 	}
 .ch{
 	padding-top:3px;
-	margin-left:7px;
+	margin-left:8px;
 	letter-spacing: 2.1px;
 	color:#154467;
 	font: 12px Arial,sans-serif;
@@ -375,7 +375,7 @@ font: 11px Arial,sans-serif;
 .disc_right1, .disc_right2, .disc_right3{
 	margin-left: 14px;
     margin-top: 3px;
-	margin-bottom:4px;
+	margin-bottom:3px;
 	font: 10px Lucida Sans Unicode,Arial,sans-serif;
 	line-height:10px;
 	width:169px;
@@ -393,16 +393,16 @@ font: 11px Arial,sans-serif;
 	}
 .disc_right2 input{
 	width:49px;
-	margin-top:12px;
+	margin-top:14px;
 	margin-right:26px;
 }
 .disc_right3 input{
-	margin-top:9px;
+	margin-top:12px;
 }
 .findDisc content{
 	width:100px;
 	float:right;
-	margin-top:0px;
+	margin-top:2px;
 	border-left: 1px solid #bdc6ca;
 }
 .dco, .et{
@@ -416,7 +416,7 @@ font: 11px Arial,sans-serif;
 	width:55px; 
     height:13px;
 	margin-top:3px;
-	margin-bottom:9px;
+	margin-bottom:8px;
 	background: url(../img/arrow1.png) #fff no-repeat right center; 
 }
 .foot1 input{
@@ -424,29 +424,46 @@ font: 11px Arial,sans-serif;
     margin-top: -7px;
 }
 .left_sidebar,.right_sidebar {
-	width:236px;
+	width:223px;
 	height:510px;
-	padding-top:5px;
-	margin-left:14px;
+	padding-top:4px;
+	margin-left:13px;
 	float:left;
 }
 .left_sidebar aside, .right_sidebar aside{
 	height:510px;
 }
-.left_sidebar header, .find_tires, .find_tires1,.find_tires2, .right_sidebar header,.right_find_tires, .right_find_tires1{
-   	margin-left:30px;
-	margin-bottom:15px;
+.left_sidebar header, .right_sidebar header{
+   	margin-left:31px;
+	margin-bottom:10px;
 	width:182px;
-    height:27px;
+    height:26px;
    	border: 1px solid #8b979c;
 	border-radius: 14px;
 	box-shadow:3px 3px 10px rgba(180,180,180,.75);   
 }
-.left_sidebar header p, .right_sidebar header p, .find_tires p, .find_tires1 p, .find_tires2 p, .right_find_tires p,.right_find_tires1 p{ 
+.find_tires, .find_tires1,.find_tires2,.right_find_tires, .right_find_tires1{
+	margin-left:32px;
+	margin-bottom:11px;
+	width:148px;
+    height:26px;
+   	border: 1px solid #8b979c;
+	border-radius: 14px;
+	box-shadow:3px 3px 10px rgba(180,180,180,.75);
+	
+}
+.left_sidebar header p, .right_sidebar header p { 
     font: 12.73px Lucida Sans Unicode,Arial,sans-serif;
     color:#114165;
 	margin-left:26px;
 	margin-top:-19px;
+}
+.find_tires p, .find_tires1 p, .find_tires2 p, .right_find_tires p,.right_find_tires1 p{
+	 font: 12.73px Lucida Sans Unicode,Arial,sans-serif;
+    color:#114165;
+	margin-left:30px;
+	margin-top:-19px;
+	
 }
 .left_sidebar header img, .right_sidebar header img, .find_tires img, .find_tires1 img, .find_tires2 img, .right_find_tires img, .right_find_tires1 img{
     margin:2px 2px 0px;
@@ -464,12 +481,12 @@ font: 11px Arial,sans-serif;
 	width:140px;
 	font: 14px Lucida Sans Unicode,Arial,sans-serif;
     list-style:circle;
-    margin-left:51px;
-	margin-top:8px;
+    margin-left:55px;
+	margin-top:4px;
 }
 .find_tires li a, .find_tires1 li a, .find_tires2 li a{
 	color:#465961;
-	letter-spacing:0.75px;
+	letter-spacing:0px;
 	text-decoration:none;
 }
   .find_tires li:hover ,.find_tires1 li:hover, .find_tires2 li:hover{
@@ -479,10 +496,10 @@ font: 11px Arial,sans-serif;
 	letter-spacing:1px;
  }
  .find_tires1{
-	 margin-top:122px;
+	 margin-top:100px;
  }
  .find_tires2{
-	 margin-top:122px;
+	 margin-top:98px;
  }
  .rubbers{
 	 float:left;
@@ -493,7 +510,7 @@ font: 11px Arial,sans-serif;
  }
  .rubber{
 	 float:left;
-	 margin:16px 7px 2px 23px;
+	 margin:12px 5px 7px 20px;
 	 text-align:center;
   }
  .view_rubber{
@@ -504,11 +521,13 @@ font: 11px Arial,sans-serif;
  .model_rubber{
 	 color:#1f2528;
 	 font: 13px Lucida Sans Unicode,Arial,sans-serif;
-	 margin-top:-5px;
+	 margin-top:-8px;
+	 margin-left: 6px;
+	 
  }
  .photo_rubber{
-	 width:137px;
-	 height:128px;
+	 width:140px;
+	 height:127px;
 	 background-color: #fff;
 	 border: 1px solid #b0b9bc;
 	 border-radius:6px;
@@ -523,37 +542,39 @@ font: 11px Arial,sans-serif;
 	 font-weight:bold;	
      color:#114165;
      margin-top:3px;
+	 margin-left:11px;
  }
  .right_sidebar {
 	width:181px;
 }
 .right_sidebar header{
-   	margin-left:0px;
-	width:170px;
+    margin-left: -5px;
+    margin-top: -3px;
+   	width:179px;
 }
 .right_find_tires,.right_find_tires1{
 	margin-left:0px;
    	width:135px;
 }
 .right_find_tires, .right_find_tires1{
-	margin-bottom:84px;
-	margin-left: 13px;
+	margin-bottom:88px;
+	margin-left: 9px;
 }
 .right_find_tires p,.right_find_tires1 p{
-	margin-left:27px;
+	margin-left:31px;
 }
 .checkbox_tire{
-	margin-top:11px;
-	margin-left:4px;
+	margin-top:12px;
+	margin-left:33px;
 	line-height:40px;
 	color:#465961;
 	font: 12.73px Lucida Sans Unicode,Arial,sans-serif;
 }
 .right_sidebar button{
-	width:80px;
-	height:25px;
-	margin-left:23px;
-	margin-top:8px;
+	width:78px;
+	height:24px;
+	margin-left:20px;
+	margin-top:6px;
 	color:#e5e9ea;
 	background: linear-gradient(to bottom, #1e6383,#0d365a);
 	border-radius: 12px;
@@ -563,33 +584,33 @@ font: 11px Arial,sans-serif;
 }
 .tire_logo{
      clear:both;
-     margin-left:164px;
+     margin-left:156px;
 }
 .tire_logo img{
-     margin:42px auto;
-	 padding:0px 5px;
+     margin:30px auto;
+	 padding:4px 6px 1px 6px;
 }
  footer{
 	width:908px;
-	height:100px;
+	height:98px;
 	background:#213a4d;
-	margin:0px auto;
+	margin:2px auto;
 }
 .menu{
-	width:300px;
-	height:46px;
+	width:320px;
+	height:51px;
 	margin: 0px auto;
 }	
 .menu li{
-	margin-top:13px;
-	float:left;
+	margin-top: 4px;
+    float:left;
 	border-right: 1px solid #8d989f;
 }
 .menu li a{
     font: 12px Arial,sans-serif;
     color:#e5e9ea;
-	padding-left:10px;
-	padding-right:10px;
+	padding-left:15px;
+	padding-right:12px;
 }
 .menu li a:hover{
 	color:#52abcb;
@@ -599,7 +620,7 @@ font: 11px Arial,sans-serif;
 }	
 footer p{
 	color:#7f4740;
-	font: 10px, Arial, sans-serif;
+	font: 10px Arial, sans-serif;
     text-align: center;
-    margin: 0px auto;
+    margin: -16px auto;
 }
