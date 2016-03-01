@@ -1,0 +1,595 @@
+body{
+	background-color:#103d61;
+	}
+.wrapper{
+	width:1000px;
+	margin: 0 auto; 
+	background-color:white;
+}
+header{
+	height:53px;
+}
+.telephone{
+	float:left;
+	margin-left:53px;
+	margin-top:28px;
+	font: 18px Arial,sans-serif;
+	color:#5e696d;
+    }
+.telephone img{
+	float:left;
+	margin-right:5px;
+}
+.autorization {
+	float:left;
+	width:495px;
+	height:27px;
+	background: linear-gradient(to top, #0d3458, #1f6787);
+	border-radius: 3px;
+	box-shadow:3px 3px 10px rgba(180,180,180,.75);
+	margin:24px 0px 0px 17px;
+}
+.autorization img{
+	float:left;
+	margin-top:3px;
+	margin-left:7px;
+	}
+.form1, .form2{
+	font: 11px Lucida Sans Unicode,Arial,sans-serif;
+	display:block;
+	color:#97a2a6;
+	float:left;
+	height:16px;
+	width:106px;
+	margin: 2px 0px 2px 8px;
+}
+.form2{
+	margin-left:7px;
+	}
+.form3,.form4{
+	font: 11px Lucida Sans Unicode,Arial,sans-serif;
+	background: none;
+	border:none;
+	margin:4px 2px 2px 2px;
+	color:white;
+    border-right: solid 2px white;
+	}
+.form4{
+	margin:4px 0px 2px 0px;
+	border:none;
+}	
+	
+.autorization a {
+	color:#bfbfbf;
+	font: 12px Lucida Sans Unicode,Arial,sans-serif;
+}
+nav{
+	float:left;
+	width:76px;
+	height:21px;
+	background-color:white;
+	border: solid 1px #d3d8da;
+	margin:24px 52px 0px 18px;
+	border-radius: 34px;
+	box-shadow:2px 1px 5px rgba(209,214,216,.75);
+}
+nav img{
+	padding:4px 4px 7px 5px;
+	
+}
+.logo img{
+	padding:11px 46px 7px 46px;
+}
+.mainmenu{
+	width:912px;
+	height:33px;
+	margin: 0 auto; 
+	background: linear-gradient(to top, #030303, #505860);
+	border-radius: 5px;
+	box-shadow:2px 4px 7px rgba(132,132,132,.75);
+	}
+.mainmenu li{
+	float:left;
+	font: 13.64px Lucida Sans Unicode,Arial,sans-serif;
+	margin-top:12px;
+    margin:6px 33px 12px 0px;
+	}
+.mainmenu li a{
+	color:#b1bcc0;
+	text-decoration:none;
+	}
+.mainmenu li:first-child{
+	margin-left:147px;
+}
+.mainmenu li:first-child:hover{
+	margin-left:126px;
+}
+ .mainmenu li:hover{
+	width:120px;
+	height:26px;
+	text-align:center;
+	background: linear-gradient(to top, #0c3357, #1f6787);
+	border-radius: 34px;
+	margin:3px 0px 4px 0px;
+	}
+	.mainmenu li a:hover{
+	color: #ffffff;
+	}
+.koshyk {
+	float:right;
+	height:33px;
+	font: 11px Arial,sans-serif;
+	color:#929b9f;
+	margin-top:4px;
+	margin-right:10px;
+	
+	}
+.koshyk span:nth-child(3){
+	color:#104c78;
+}
+.koshyk span:nth-child(5){
+	color:#104c78;
+}
+.findforms{
+	float: left;
+    height: 150px;
+    width: 925px;
+    margin-left: 31px;
+	clear:both;
+	margin-bottom: 14px;
+}
+.findPoAvto{
+	width:413px;
+    height:136px;
+	margin:11px 0px 5px 14px;
+	border: solid 1px #b8b8b9;
+	border-radius: 26px;
+	box-shadow:2px 4px 7px rgba(132,132,132,.75);
+	float:left;
+	}
+.SearchLeft{
+	height:10px;
+}
+.SearchLeft p{
+	text-align:center;
+	color:#154467;
+	font: 12px Arial,sans-serif;
+	}
+.findPoAvto header{
+	height:15px;
+	margin-left:20px;
+	}
+.findPoAvto header span{
+	font: 10px Arial,sans-serif;
+	color:#154468;
+	font-weight: bold;
+	margin-top:-8px;
+}
+.tire{
+	float:right;
+	margin-right:20px;
+	font: 10px Arial,sans-serif;
+	color:#154468;
+	font-weight: bold;
+	margin-top:4px;
+}
+.findPoAvto form{
+	font: 10px Arial,sans-serif;
+	color:#000;
+	width:413px;
+	height:110px;
+	clear:both;
+}
+.findPoAvto aside{
+	margin-top:1px;
+	margin-left:20px;
+	width:172px;
+	}
+.disc_left{
+	width:170px;
+	height:20px;
+	line-height:8px;
+	margin-bottom:3px;
+	vertical-align:middle;	
+	}
+.disc_left p,span{
+display:inline-block;
+line-height:9px;
+margin-bottom:1px;
+}
+.markcar{
+	margin-top:5px;
+}
+.change_color{
+color:#8d999d;
+}
+.findPoAvto aside input,.findPoAvto content input{
+margin-left:7px;
+background: url(../img/arrow1.png) #fff no-repeat right center; /*url иконки, цвет фона формы*/
+width:100px;
+height:13px;
+float:right;
+}
+#year {
+width:56px;
+margin-right:44px;
+}
+.complekt{
+margin-top:-15px;
+}
+.complekt1{
+text-align:center;
+margin-top:5px;
+}
+.findPoAvto content{
+	float:right;
+	width:175px;
+	margin-right:10px;
+	margin-top:-92px;
+}
+.tire1{
+	width:170px;
+	height:20px;
+	line-height:8px;
+	margin-bottom:3px;
+	vertical-align:middle;	
+	}
+.tire1 p,span{
+display:inline-block;
+line-height:9px;
+margin-bottom:1px;
+}
+.foot, .foot1{
+	height:17px;
+}
+.foot input, .foot1 input{
+	font: 14px Arial,sans-serif;
+	text-decoration:underline;
+	font-style:italic;
+	color:#154467;
+	float:right;
+	background:none;
+	border:none;
+	padding:0px;
+	margin-right: 23px;
+    margin-top: -3px;
+	clear:both;
+}
+.findTires{
+	width:193px;
+    height:136px;
+	margin:11px 0px 11px 14px;
+	border: solid 1px #b8b8b9;
+	font: 10px Lucida Sans Unicode, Arial,sans-serif;
+	border-radius: 26px;
+	box-shadow:2px 4px 7px rgba(132,132,132,.75);
+    float:left;
+	  }
+.SearchCenter{
+	height:20px;
+}
+.SearchCenter p{
+	padding-top:8px;
+	margin-left:14px;
+	color:#154467;;
+	font: 12px Arial,sans-serif;
+	}
+.tires1 input, .tires2 input{
+background: url(../img/arrow1.png) #fff no-repeat right center; 
+width:49px;
+height:13px;
+color:#000000;
+font: 11px Arial,sans-serif;
+}
+.tires1, .tires2{
+	width:160px;
+	height:20px;
+	margin-left:15px;
+	padding-bottom:8px;
+}
+.tires2{
+	margin-left:43px;
+	font: 11px Arial,sans-serif;
+	margin-top:1px;
+	padding-bottom:0px;
+}
+.tires2 input{
+	width:40px;
+}
+.mainsize{
+	font: 10px Lucida Sans Unicode,Arial,sans-serif;
+	margin-top:9px;
+}
+.tires3{
+	height:49px;
+	line-height:5px;
+}
+.season{
+    font: 10px Lucida Sans Unicode,Arial,sans-serif;
+	margin-left:21px;
+	height:10px;
+}
+.season1{
+	font: 12px Lucida Sans Unicode,Arial,sans-serif;
+	margin-left:49px;
+	height:13px;
+}
+.season1 span{
+	vertical-align:middle;
+}
+.season2{
+	width:30px;
+	height:12px;
+	margin:0px;
+}
+.search{
+	height:17px;
+}
+.search input{
+	font: 14px Arial,sans-serif;
+	text-decoration:underline;
+	font-style:italic;
+	color:#154467;
+	float:right;
+	background:none;
+	border:none;
+	padding:0px;
+	margin-right: 16px;
+    margin-top: -3px;
+	clear:both;
+}
+.findDisc{
+	width:271px;
+    height:136px;
+	margin:11px 0px 11px 11px;
+	border: solid 1px #b8b8b9;
+	border-radius: 26px;
+	box-shadow:2px 4px 7px rgba(132,132,132,.75);
+	float:left;
+	}
+.findDisc form{
+	font: 10px Arial,sans-serif;
+	color:#000;
+	width:271px;
+	height:136px;
+	}
+.ch{
+	padding-top:8px;
+	margin-left:14px;
+	color:#154467;
+	font: 12px Arial,sans-serif;
+	}
+.findDisc aside{
+	width:168px;
+	float:left;
+}
+.disc_right1, .disc_right2, .disc_right3{
+	margin-left: 18px;
+    margin-top: 3px;
+	margin-bottom:5px;
+	font: 10px Lucida Sans Unicode,Arial,sans-serif;
+	line-height:10px;
+	width:168px;
+}
+.disc_right1 input, .disc_right2 input, .disc_right3 input{
+	background: url(../img/arrow1.png) #fff no-repeat right center; 
+    float:right;
+	margin-right:20px;
+	width:55px; 
+    height:13px;
+    color:black;
+    font: 11px Arial,sans-serif;
+	text-align:left;
+	}
+.disc_right2 input{
+	width:49px;
+	margin-top:12px;
+	margin-right:26px;
+}
+.disc_right3 input{
+	margin-top:9px;
+}
+.findDisc content{
+	width:100px;
+	float:right;
+	margin-top:7px;
+	border-left: 1px solid #bdc6ca;
+}
+.dco, .et{
+	width:80px;
+	font: 10px Lucida Sans Unicode,Arial,sans-serif;
+	margin-left:10px;
+	line-height:9px;
+	text-align:left;
+}
+.dco input, .et input{
+	width:55px; 
+    height:13px;
+	margin-top:3px;
+	margin-bottom:5px;
+	background: url(../img/arrow1.png) #fff no-repeat right center; 
+}
+.foot1 input{
+	margin-right: 21px;
+    margin-top: -10px;
+}
+.left_sidebar,.right_sidebar {
+	width:236px;
+	height:510px;
+	padding-top:5px;
+	margin-left:14px;
+	float:left;
+}
+.left_sidebar aside, .right_sidebar aside{
+	height:510px;
+}
+.left_sidebar header, .find_tires, .find_tires1,.find_tires2, .right_sidebar header,.right_find_tires, .right_find_tires1{
+   	margin-left:30px;
+	margin-bottom:15px;
+	width:182px;
+    height:27px;
+   	border: 1px solid #8b979c;
+	border-radius: 14px;
+	box-shadow:3px 3px 10px rgba(180,180,180,.75);   
+}
+.left_sidebar header p, .right_sidebar header p, .find_tires p, .find_tires1 p, .find_tires2 p, .right_find_tires p,.right_find_tires1 p{ 
+    font: 12.73px Lucida Sans Unicode,Arial,sans-serif;
+    color:#114165;
+	margin-left:26px;
+	margin-top:-19px;
+}
+.left_sidebar header img, .right_sidebar header img, .find_tires img, .find_tires1 img, .find_tires2 img, .right_find_tires img, .right_find_tires1 img{
+    margin:2px 2px 0px;
+	vertical-align:middle;
+}
+.dh{
+   	border: 1px solid #8b979c;
+	border-radius: 14px;
+    box-shadow:2px 4px 7px rgba(132,132,132,.75);
+}
+.find_tires p, .find_tires1 p, .find_tires2 p,.right_find_tires p, .right_find_tires1 p,{
+	margin-top:-20px;
+}
+.find_tires li, .find_tires1 li, .find_tires2 li{
+	width:140px;
+	font: 14px Lucida Sans Unicode,Arial,sans-serif;
+    list-style:circle;
+    margin-left:51px;
+	margin-top:8px;
+}
+.find_tires li a, .find_tires1 li a, .find_tires2 li a{
+	color:#465961;
+	letter-spacing:0.75px;
+	text-decoration:none;
+}
+  .find_tires li:hover ,.find_tires1 li:hover, .find_tires2 li:hover{
+	font-weight:bold;
+	color:#0c3256;
+	font-style:italic;
+	letter-spacing:1px;
+ }
+ .find_tires1{
+	 margin-top:122px;
+ }
+ .find_tires2{
+	 margin-top:122px;
+ }
+ .rubbers{
+	 float:left;
+	 width:527px;
+	 height:627px;
+	 background: linear-gradient(to top, rgba(148,167,176,0.9), rgba(213,219,222,0.5));
+	 border-radius:6px;
+ }
+ .rubber{
+	 float:left;
+	 margin:16px 7px 2px 23px;
+	 text-align:center;
+  }
+ .view_rubber{
+	 font: 14px Lucida Sans Unicode,Arial,sans-serif;
+	 color:#206988;
+	 font-weight:bold;
+ }
+ .model_rubber{
+	 color:#1f2528;
+	 font: 13px Lucida Sans Unicode,Arial,sans-serif;
+	 margin-top:-5px;
+ }
+ .photo_rubber{
+	 width:137px;
+	 height:128px;
+	 background-color: #fff;
+	 border: 1px solid #b0b9bc;
+	 border-radius:6px;
+	 margin-top:-3px;
+ }
+ .photo_rubber img{
+	 margin:5px auto;
+ }
+ .price_rubber{
+	 font: 16px Arial,sans-serif;
+	 font-style:italic;
+	 font-weight:bold;	
+     color:#114165;
+     margin-top:3px;
+ }
+ .right_sidebar {
+	width:181px;
+}
+.right_sidebar header{
+   	margin-left:0px;
+	width:170px;
+}
+.right_find_tires,.right_find_tires1{
+	margin-left:0px;
+   	width:135px;
+}
+.right_find_tires, .right_find_tires1{
+	margin-bottom:84px;
+	margin-left: 13px;
+}
+.right_find_tires p,.right_find_tires1 p{
+	margin-left:27px;
+}
+.checkbox_tire{
+	margin-top:11px;
+	margin-left:4px;
+	line-height:40px;
+	color:#465961;
+	font: 12.73px Lucida Sans Unicode,Arial,sans-serif;
+}
+.right_sidebar button{
+	width:80px;
+	height:25px;
+	margin-left:23px;
+	margin-top:8px;
+	color:#e5e9ea;
+	background: linear-gradient(to bottom, #1e6383,#0d365a);
+	border-radius: 12px;
+	box-shadow:2px 4px 7px rgba(132,132,132,.75);
+	border:none;
+	font: 11px Arial,sans-serif;
+}
+.tire_logo{
+     clear:both;
+     margin-left:164px;
+}
+.tire_logo img{
+     margin:42px auto;
+	 padding:0px 5px;
+}
+ footer{
+	width:908px;
+	height:100px;
+	background:#213a4d;
+	margin:0px auto;
+}
+.menu{
+	width:300px;
+	height:46px;
+	margin: 0px auto;
+}	
+.menu li{
+	margin-top:13px;
+	float:left;
+	border-right: 1px solid #8d989f;
+}
+.menu li a{
+    font: 12px Arial,sans-serif;
+    color:#e5e9ea;
+	padding-left:10px;
+	padding-right:10px;
+}
+.menu li a:hover{
+	color:#52abcb;
+}
+.menu li:last-child{
+    border-right:none;
+}	
+footer p{
+	color:#7f4740;
+	font: 10px, Arial, sans-serif;
+    text-align: center;
+    margin: 0px auto;
+}
