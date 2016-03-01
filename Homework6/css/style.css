@@ -7,12 +7,12 @@ body{
 	background-color:white;
 }
 header{
-	height:53px;
+	height:50px;
 }
 .telephone{
 	float:left;
-	margin-left:53px;
-	margin-top:28px;
+	margin-left:51px;
+	margin-top:20px;
 	font: 18px Arial,sans-serif;
 	color:#5e696d;
     }
@@ -27,7 +27,7 @@ header{
 	background: linear-gradient(to top, #0d3458, #1f6787);
 	border-radius: 3px;
 	box-shadow:3px 3px 10px rgba(180,180,180,.75);
-	margin:24px 0px 0px 17px;
+	margin:15px 0px 0px 18px;
 }
 .autorization img{
 	float:left;
@@ -40,45 +40,47 @@ header{
 	color:#97a2a6;
 	float:left;
 	height:16px;
-	width:106px;
-	margin: 2px 0px 2px 8px;
+	width:111px;
+	padding-left:1px;
+	margin: 2px 0px 2px 5px;
 }
 .form2{
-	margin-left:7px;
+	margin-left:6px;
 	}
 .form3,.form4{
 	font: 11px Lucida Sans Unicode,Arial,sans-serif;
 	background: none;
 	border:none;
-	margin:4px 2px 2px 2px;
+	margin:4px -6px 2px -1px;
 	color:white;
     border-right: solid 2px white;
 	}
 .form4{
-	margin:4px 0px 2px 0px;
+	margin:4px 0px 2px -1px;
 	border:none;
 }	
 	
 .autorization a {
 	color:#bfbfbf;
 	font: 12px Lucida Sans Unicode,Arial,sans-serif;
+	padding-left: 8px
 }
 nav{
 	float:left;
 	width:76px;
-	height:21px;
+	height:19px;
 	background-color:white;
 	border: solid 1px #d3d8da;
-	margin:24px 52px 0px 18px;
+	margin:16px 29px 0px 15px;
 	border-radius: 34px;
 	box-shadow:2px 1px 5px rgba(209,214,216,.75);
 }
 nav img{
-	padding:4px 4px 7px 5px;
+	padding:3px 0px 3px 6px;
 	
 }
 .logo img{
-	padding:11px 46px 7px 46px;
+	padding:0px 46px 6px 46px;
 }
 .mainmenu{
 	width:912px;
@@ -91,8 +93,7 @@ nav img{
 .mainmenu li{
 	float:left;
 	font: 13.64px Lucida Sans Unicode,Arial,sans-serif;
-	margin-top:12px;
-    margin:6px 33px 12px 0px;
+	margin:6px 33px 12px -1px;
 	}
 .mainmenu li a{
 	color:#b1bcc0;
@@ -122,8 +123,10 @@ nav img{
 	color:#929b9f;
 	margin-top:4px;
 	margin-right:10px;
-	
 	}
+.koshik a{
+	margin-bottom:2px;
+}
 .koshyk span:nth-child(3){
 	color:#104c78;
 }
