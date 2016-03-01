@@ -11,7 +11,7 @@ header{
 }
 .telephone{
 	float:left;
-	margin-left:51px;
+	margin-left:53px;
 	margin-top:20px;
 	font: 18px Arial,sans-serif;
 	color:#5e696d;
@@ -80,7 +80,7 @@ nav img{
 	
 }
 .logo img{
-	padding:0px 46px 6px 46px;
+	padding:0px 46px 5px 46px;
 }
 .mainmenu{
 	width:912px;
@@ -121,8 +121,8 @@ nav img{
 	height:33px;
 	font: 11px Arial,sans-serif;
 	color:#929b9f;
-	margin-top:4px;
-	margin-right:10px;
+	margin-top:3px;
+	margin-right:24px;
 	}
 .koshik a{
 	margin-bottom:2px;
@@ -137,16 +137,16 @@ nav img{
 	float: left;
     height: 150px;
     width: 925px;
-    margin-left: 31px;
+    margin-left: 35px;
 	clear:both;
 	margin-bottom: 14px;
 }
 .findPoAvto{
 	width:413px;
-    height:136px;
-	margin:11px 0px 5px 14px;
+    height:134px;
+	margin:5px 0px 5px 15px;
 	border: solid 1px #b8b8b9;
-	border-radius: 26px;
+	border-radius: 22px;
 	box-shadow:2px 4px 7px rgba(132,132,132,.75);
 	float:left;
 	}
@@ -154,27 +154,29 @@ nav img{
 	height:10px;
 }
 .SearchLeft p{
-	text-align:center;
+	margin-left: 125px;
+    letter-spacing: 1.7px;
 	color:#154467;
 	font: 12px Arial,sans-serif;
 	}
 .findPoAvto header{
-	height:15px;
-	margin-left:20px;
+	height:10px;
+	margin-left:19px;
 	}
 .findPoAvto header span{
 	font: 10px Arial,sans-serif;
 	color:#154468;
 	font-weight: bold;
-	margin-top:-8px;
+	letter-spacing: 2px;
 }
 .tire{
 	float:right;
-	margin-right:20px;
+	margin-right:21px;
 	font: 10px Arial,sans-serif;
 	color:#154468;
 	font-weight: bold;
-	margin-top:4px;
+	margin-top:-7px;
+	letter-spacing: 0.5px;
 }
 .findPoAvto form{
 	font: 10px Arial,sans-serif;
@@ -185,11 +187,11 @@ nav img{
 }
 .findPoAvto aside{
 	margin-top:1px;
-	margin-left:20px;
+	margin-left:17px;
 	width:172px;
 	}
 .disc_left{
-	width:170px;
+	width:177px;
 	height:20px;
 	line-height:8px;
 	margin-bottom:3px;
@@ -197,7 +199,7 @@ nav img{
 	}
 .disc_left p,span{
 display:inline-block;
-line-height:9px;
+line-height:4px;
 margin-bottom:1px;
 }
 .markcar{
@@ -207,28 +209,28 @@ margin-bottom:1px;
 color:#8d999d;
 }
 .findPoAvto aside input,.findPoAvto content input{
-margin-left:7px;
+margin-left:9px;
 background: url(../img/arrow1.png) #fff no-repeat right center; /*url иконки, цвет фона формы*/
-width:100px;
+width:98px;
 height:13px;
 float:right;
 }
 #year {
-width:56px;
-margin-right:44px;
+width:54px;
+margin-right:46px;
 }
 .complekt{
-margin-top:-15px;
+margin-top:-3px;
 }
 .complekt1{
 text-align:center;
-margin-top:5px;
+margin-top:3px;
 }
 .findPoAvto content{
 	float:right;
 	width:175px;
-	margin-right:10px;
-	margin-top:-92px;
+	margin-right:15px;
+	margin-top:-94px;
 }
 .tire1{
 	width:170px;
@@ -254,75 +256,78 @@ margin-bottom:1px;
 	background:none;
 	border:none;
 	padding:0px;
-	margin-right: 23px;
-    margin-top: -3px;
+	margin-right: 21px;
+    margin-top: -6px;
 	clear:both;
 }
 .findTires{
-	width:193px;
-    height:136px;
-	margin:11px 0px 11px 14px;
+	width:192px;
+    height:135px;
+	margin:5px 0px 11px 12px;
 	border: solid 1px #b8b8b9;
 	font: 10px Lucida Sans Unicode, Arial,sans-serif;
-	border-radius: 26px;
+	border-radius: 18px;
 	box-shadow:2px 4px 7px rgba(132,132,132,.75);
     float:left;
 	  }
 .SearchCenter{
-	height:20px;
+	height:15px;
 }
 .SearchCenter p{
-	padding-top:8px;
-	margin-left:14px;
+	padding-top:1px;
+	margin-left:11px;
+	letter-spacing: 1.2px;
 	color:#154467;;
 	font: 12px Arial,sans-serif;
 	}
 .tires1 input, .tires2 input{
 background: url(../img/arrow1.png) #fff no-repeat right center; 
-width:49px;
+width:50px;
 height:13px;
 color:#000000;
 font: 11px Arial,sans-serif;
 }
 .tires1, .tires2{
 	width:160px;
-	height:20px;
-	margin-left:15px;
-	padding-bottom:8px;
+	height:15px;
+	margin-left:17px;
+	padding-bottom:14px;
 }
 .tires2{
-	margin-left:43px;
+	margin-left:41px;
 	font: 11px Arial,sans-serif;
 	margin-top:1px;
 	padding-bottom:0px;
 }
 .tires2 input{
-	width:40px;
+	width:41px;
+	padding-left:8px;
 }
 .mainsize{
 	font: 10px Lucida Sans Unicode,Arial,sans-serif;
-	margin-top:9px;
+	margin-top:10px;
 }
 .tires3{
-	height:49px;
+	height:50px;
 	line-height:5px;
 }
 .season{
     font: 10px Lucida Sans Unicode,Arial,sans-serif;
-	margin-left:21px;
-	height:10px;
+	margin-left:14px;
+	margin-top:5px;
+	height:2px;
 }
 .season1{
 	font: 12px Lucida Sans Unicode,Arial,sans-serif;
-	margin-left:49px;
-	height:13px;
+	margin-left:50px;
+	height:14px;
 }
 .season1 span{
 	vertical-align:middle;
 }
 .season2{
-	width:30px;
-	height:12px;
+	width:27px;
+	height:11px;
 	margin:0px;
 }
 .search{
@@ -337,16 +342,16 @@ font: 11px Arial,sans-serif;
 	background:none;
 	border:none;
 	padding:0px;
-	margin-right: 16px;
-    margin-top: -3px;
+	margin-right: 20px;
+    margin-top: -8px;
 	clear:both;
 }
 .findDisc{
-	width:271px;
-    height:136px;
-	margin:11px 0px 11px 11px;
+	width:265px;
+    height:133px;
+	margin:4px 0px 11px 11px;
 	border: solid 1px #b8b8b9;
-	border-radius: 26px;
+	border-radius: 19px;
 	box-shadow:2px 4px 7px rgba(132,132,132,.75);
 	float:left;
 	}
@@ -357,8 +362,9 @@ font: 11px Arial,sans-serif;
 	height:136px;
 	}
 .ch{
-	padding-top:8px;
-	margin-left:14px;
+	padding-top:3px;
+	margin-left:7px;
+	letter-spacing: 2.1px;
 	color:#154467;
 	font: 12px Arial,sans-serif;
 	}
@@ -367,17 +373,18 @@ font: 11px Arial,sans-serif;
 	float:left;
 }
 .disc_right1, .disc_right2, .disc_right3{
-	margin-left: 18px;
+	margin-left: 14px;
     margin-top: 3px;
-	margin-bottom:5px;
+	margin-bottom:4px;
 	font: 10px Lucida Sans Unicode,Arial,sans-serif;
 	line-height:10px;
-	width:168px;
+	width:169px;
 }
 .disc_right1 input, .disc_right2 input, .disc_right3 input{
 	background: url(../img/arrow1.png) #fff no-repeat right center; 
     float:right;
 	margin-right:20px;
+	margin-top: 2px;
 	width:55px; 
     height:13px;
     color:black;
@@ -395,13 +402,13 @@ font: 11px Arial,sans-serif;
 .findDisc content{
 	width:100px;
 	float:right;
-	margin-top:7px;
+	margin-top:0px;
 	border-left: 1px solid #bdc6ca;
 }
 .dco, .et{
 	width:80px;
 	font: 10px Lucida Sans Unicode,Arial,sans-serif;
-	margin-left:10px;
+	margin-left:13px;
 	line-height:9px;
 	text-align:left;
 }
@@ -409,12 +416,12 @@ font: 11px Arial,sans-serif;
 	width:55px; 
     height:13px;
 	margin-top:3px;
-	margin-bottom:5px;
+	margin-bottom:9px;
 	background: url(../img/arrow1.png) #fff no-repeat right center; 
 }
 .foot1 input{
-	margin-right: 21px;
-    margin-top: -10px;
+	margin-right: 26px;
+    margin-top: -7px;
 }
 .left_sidebar,.right_sidebar {
 	width:236px;
