@@ -16,7 +16,7 @@ header{
 .container,.aboutcontainer,.authorcontainer{
 	margin:0 auto;
 	max-width:960px;
-        width:960px;
+    width:960px;
 	box-sizing: border-box;
 }
 .logo{
@@ -109,15 +109,15 @@ header{
 	left:634px;
 }
 .sliderbox{
-	height:20px;
-    position:absolute;
-	top:491px;
-	left:708px;
+	box-sizing: border-box;
+	clear:both;
+	position:absolute;
+	top:109%;
+	left:74%;
 }
 .sliderox__radio{
     float:left;
 	margin-right:5px;
-	
 }
 .sliderbox__link,.updates--sliderbox__link{
 	display:block;
