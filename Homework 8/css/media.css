@@ -8,15 +8,15 @@
 	padding-left:21px;
  }	
 .menu{
-  margin-left:0px;
-  padding-top:130px;
+  margin-left:1px;
+  padding-top:140px;
 }
 .menu__item{
 	padding-right:30px;
 	padding-left:21px;
 }
 .slider{
-	margin:8.2% auto 10.9%;
+	margin:13.8% auto 20.5%;
 }
 .slcontainer{
 	box-sizing: border-box;
@@ -26,74 +26,124 @@
 }
 .right__slcontainer{
 	position:absolute;
-	top:-21px;
-	left:455px;
+	top:-25px;
+	left:456px;
 }
 .left__slcontainer{
-	width:307px;
+	width:320px;
 	position:absolute;
-	top:85px;
-	left:32px;
+	top:109px;
+	left:45px;
 }
 .slcontainer__title{
-   	font: 50px "League Gothic Regular", Arial,sans-serif;
+   	font: 47px "League Gothic Regular", Arial,sans-serif;
 	line-height:26px;
 }
 .slcontainer__subtitle{
     font: 24px "League Gothic Regular", Arial,sans-serif;
-   	line-height:35px;
+   	line-height:39px;
 }
 .slcontainer__content{
 	font-size: 16px;
     line-height:22px;
-	letter-spacing:1.5px;
+	letter-spacing:1.3px;
 }
 .arrow_left{
 	position:absolute;
-	top:92px;
-	left:-46px;
+	top:74px;
+	left:-43px;
 }
 .arrow_right{
 	position:absolute;
-	top:204px;
+	top:209px;
 	left:295px;
 }
 .sliderbox{
     position:absolute;
-	top:434px;
-	left:549px;
+	top:436px;
+	left:545px;
 }
 .aboutbox__title{
 	font: 24px "League Gothic Regular", Arial,sans-serif;
 }
 .aboutbox__content{
-	line-height:21px;
+	line-height:20px;
+}
+.author__title {
+    font: 27px "League Gothic Regular", Arial,sans-serif;
+    margin-left: 60px;
+    padding-top: 27px;
 }
 .author__content{
+	padding-left:26px;
 	padding-right: 8px;
 	letter-spacing:-1.2px;
 }
+.photo{
+	position:absolute;
+	top:22px;
+	left:-3px;
+}	
+.updates__title{
+	padding-top:28px;
+	padding-left:20px;
+}
 .updates__list1,.updates__list2,.updates__list3{
-	background: url(../img/img_circle.png) 4px 0px no-repeat;
+	background: url(../img/img_circle.png) 20px 2px no-repeat;
 }
 .updates__subtitle{
-	padding-top:0px;
+	padding-top:8px;
+	padding-left:20px;
+}
+.updates__content{
+	margin-left:87px;
+	padding-top:8px;
+}
+.updates__read{
+	margin-right:3px;
+	padding-top:7px;
+}
+.updates--sliderbox{
+    margin-left:21.5%;
+}	
+.logos_picture{
+	max-width:768px;
+	padding: 29px 0px;
+}
+.prefooter{
+	height:397px;
+}
+.prefooter__box,.prefooter__box1 {
+    margin-top: 13.1%;
+	width:29%;
+    margin-right: 5%;
+}
+.prefooter__logo{
+	padding-left: 20px;
 }
 .prefooter__title{
 	font: 24px "League Gothic Regular", Arial,sans-serif;
-	letter-spacing: 0.8px;
+	letter-spacing: 0.6px;
+}
+.prefooter__subtitle{
+	margin-top:5px;
 }
 .prefooter__content{
-	line-height:20px;
+	line-height:17px;
 }
 footer{
 	height:200px;
 	box-sizing: border-box;
 }
+.menu--footer{
+	margin-left:2px;
+	padding-top:42px;
+}
 .menu__item--footer{
-	padding-left:20px;
+	padding-left:9px;
 }
 .footer__design{
-	margin-top:25px;
+	margin-top:63px;
+	margin-right:5px;
 }
 }
