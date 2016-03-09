@@ -19,12 +19,16 @@ header{
     width:960px;
 	box-sizing: border-box;
 }
+.container{
+	position:relative;
+}
 .logo{
 	padding-top:61px;
 	font: 46px "League Gothic Regular", Arial,sans-serif;
 	color:#fff;
 	text-shadow: 0px 2px 0px #9c9193;
-	float:left
+	float:left;
+	
 }
 .logo p:after  { 
     content: "ER";
@@ -33,8 +37,9 @@ header{
 .menu{
 	margin-left:278px;
 	padding-top:73px;
-	height: 0px;
-	}
+	height:170px;
+	box-sizing:border-box;
+}
 .menu__item{
 	float:left;
 	padding-left:51px;
@@ -49,6 +54,61 @@ header{
 	border-bottom:3px solid #edbfff;
     padding:0px 10px;
 	margin:0px 15px;
+}
+.menu320-480{
+	display:block;
+	margin:0;
+	padding:0;
+	width:244px;
+	height:41px;
+	position:absolute;
+	top:124px;
+	left:-48px;
+}
+.menu320-480__item{
+	text-align:center;
+	position:relative;
+}
+.menu320-480__link{
+	font: 24px "League Gothic Regular", Arial,sans-serif;
+	text-decoration:none;
+	color:#fff;
+	text-shadow: 0px 2px 0px #9c9193;
+}
+.submenu{
+    height:260px;
+	width:244px;
+	background-color:rgba(60,48,69,0.75);
+	border-radius:10px;
+	border:1px solid black;
+	display: none;
+    position: absolute;
+    top: -6px;
+    left: 0;
+}
+.submenu__item{
+	width:244px;
+	height:41px;
+	border-bottom:1px solid #805d8e;
+}
+.submenu__item:last-child{
+	border-bottom:none;
+}
+.submenu__link{
+	font: 24px "League Gothic Regular", Arial,sans-serif;
+	text-decoration:none;
+	color:#fff;
+	text-shadow: 0px 2px 0px #9c9193;
+	display:block;
+	height:37px;
+	padding-top:5px;
+}
+.submenu__link:hover{
+	border-bottom:3px solid #edbfff;
+	background-color:#2b2332;
+}
+.menu320-480>.menu320-480__item:hover>.submenu{
+	display:block;
 }
 .slider{
 	height:400px;
@@ -78,12 +138,14 @@ header{
 }
 .slcontainer__title{
    	font: 58px "League Gothic Regular", Arial,sans-serif;
+	text-shadow: 0px 0px 2px #000;
 	color:white;
 	line-height:26px;
 	padding-left: 0.4%;
 }
 .slcontainer__subtitle{
     color: #edbfff;
+	text-shadow: 0px 0px 2px #000;	
     font: 32px "League Gothic Regular", Arial,sans-serif;
    	line-height:35px;
     padding-top:1.7%;
@@ -112,7 +174,7 @@ header{
 	box-sizing: border-box;
 	clear:both;
 	position:absolute;
-	top:109%;
+	top:105%;
 	left:74%;
 }
 .sliderox__radio{
@@ -136,6 +198,7 @@ header{
 	height:338px;
 	border:1px solid black;
 	background: linear-gradient(to bottom, #745083, #35273c);
+	box-shadow:1px 0px 3px rgba(43,35,50,0.5);
 }
 .aboutbox__key, .aboutbox__msg, .aboutbox__sheet{
     margin-top:7.4%;
@@ -236,8 +299,7 @@ header{
 }
 .updates__list1,.updates__list2,.updates__list3{
 	margin-top:10px;
-	background: url(../img/img_circle.png) 4px 4px no-repeat;
-    height:50px;
+	height:50px;
 	margin-bottom: 16px;
 }
 .updates__subtitle{
@@ -252,6 +314,9 @@ header{
 	color:#454545;
 	margin-left:67px;
 	padding-top:6px;
+}
+.updates__list1{
+	background: url(../img/img_circle.png) 4px 4px no-repeat;
 }
 .updates__list2{
 	background: url(../img/img_circle1.png) 2px 4px no-repeat;
