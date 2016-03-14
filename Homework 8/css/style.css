@@ -35,8 +35,8 @@ header{
     color: #4f3859;
 }
 .menu{
-	margin-left:278px;
-	padding-top:73px;
+	margin-left:277px;
+	padding-top:71px;
 	height:170px;
 	box-sizing:border-box;
 }
@@ -114,7 +114,7 @@ header{
 	height:400px;
 	width:100%;
 	background-color:rgba(0,0,0,0.2);
-	margin:7.2% auto 5.9%;
+	margin:11.5% auto 17.9%;
 }
 .slcontainer{
 	box-sizing: border-box;
@@ -127,13 +127,13 @@ header{
 }
 .right__slcontainer{
 	position:absolute;
-	top:-21px;
+	top:-19px;
 	left:623px;
 }
 .left__slcontainer{
 	width:502px;
 	position:absolute;
-	top:92px;
+	top:95px;
 	left:0px;
 }
 .slcontainer__title{
@@ -148,7 +148,7 @@ header{
 	text-shadow: 0px 0px 2px #000;	
     font: 32px "League Gothic Regular", Arial,sans-serif;
    	line-height:35px;
-    padding-top:1.7%;
+    padding-top:1.3%;
 	padding-left: 0.4%;
 }
 .slcontainer__content{
@@ -174,8 +174,8 @@ header{
 	box-sizing: border-box;
 	clear:both;
 	position:absolute;
-	top:105%;
-	left:74%;
+	top:123%;
+	left:75%;
 }
 .sliderox__radio{
     float:left;
@@ -202,7 +202,7 @@ header{
 }
 .aboutbox__key, .aboutbox__msg, .aboutbox__sheet{
     margin-top:7.4%;
-	width:30%;
+	width:33%;
 	float:left;
 }
 
@@ -210,7 +210,7 @@ header{
 	font: 30px "League Gothic Regular", Arial,sans-serif;
 	color:#fff;
 	text-shadow: 0px 2px 2px #000;
-	padding-left:22%;
+	padding-left:20%;
 }
 .aboutbox__content{
 	font-size: 16px;
@@ -218,12 +218,13 @@ header{
     color:white;
     padding-top:7px;
     line-height:25px;
-    padding-left:22%;	
+    padding-left:19%;	
 }
 .aboutbox__read{
 	font: 18px "League Gothic Regular", Arial,sans-serif;
 	text-align:right;
 	margin-right:26px;
+	margin-top: 10px;
 }
 .aboutbox__link{
 	color:white;
@@ -282,8 +283,8 @@ header{
 }
 .photo{
 	position:absolute;
-	top:20px;
-	left:-25px;
+	top:17px;
+	left:-23px;
 }
 .updates{
 	float:right;
@@ -328,7 +329,7 @@ header{
 	font: 18px "League Gothic Regular", Arial,sans-serif;
 	text-align:right;
 	margin-right:12px;
-	padding-top:25px;
+	padding-top:6px;
 }
 .updates__link{
 	color:#454545;
@@ -419,6 +420,12 @@ footer{
 .menu__item--footer{
 	float:left;
 	padding-right:36px;
+}
+.menu__link--footer{
+	font: 24px "League Gothic Regular", Arial,sans-serif;
+	text-decoration:none;
+	color:#fff;
+	text-shadow: 0px 2px 0px #9c9193;
 }
 .footer__design{
 	float:right;

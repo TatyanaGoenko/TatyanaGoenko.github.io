@@ -13,7 +13,7 @@
 	padding-left:21px;
  }	
 .menu{
-  margin-left:1px;
+  margin-left:2px;
   padding-top:140px;
 }
 .menu__item{
@@ -24,7 +24,7 @@
 	display:none;
 }
 .slider{
-	margin:13.8% auto 20.5%;
+	margin:9.8% auto 20.5%;
 }
 .slcontainer{
 	box-sizing: border-box;
@@ -53,8 +53,11 @@
 }
 .slcontainer__content{
 	font-size: 16px;
-    line-height:22px;
-	letter-spacing:1.3px;
+    line-height: 26px;
+    letter-spacing: 0.3px;
+    position: relative;
+    overflow: hidden;
+    height: 108px;
 }
 .arrow_left{
 	position:absolute;
@@ -71,51 +74,83 @@
 	top:436px;
 	left:545px;
 }
+.about{
+	height:341px;
+}
+.aboutbox__key, .aboutbox__msg, .aboutbox__sheet{
+  	width:33%;
+}
+.aboutbox__key{
+    background: url(../img/sprite.png) -56px 1px no-repeat;	
+}
+.aboutbox__msg{
+    background: url(../img/sprite.png) -25px -28px no-repeat;	
+}
+.aboutbox__sheet{
+    background: url(../img/sprite.png) 0px -50px no-repeat;	
+}
 .aboutbox__title{
 	font: 24px "League Gothic Regular", Arial,sans-serif;
+	margin-left: 30px;
 }
 .aboutbox__content{
-	line-height:20px;
+	line-height: 20px;
+    margin-left: 30px;
+    position: relative;
+    overflow: hidden;
+    height: 159px;
+}
+.aboutbox__read{
+	margin-right:16px;
+	margin-top:3px;
 }
 .author__title {
     font: 27px "League Gothic Regular", Arial,sans-serif;
     margin-left: 60px;
-    padding-top: 27px;
+    padding-top: 23px;
 }
 .author__content{
-	padding-left:26px;
-	padding-right: 8px;
-	letter-spacing:-1.2px;
+	padding-left: 21px;
+    padding-right: 34px;
+    padding-top: 30px;
+    letter-spacing: -0.2px;
+    position: relative;
+    overflow: hidden;
+    height: 139px;
+    line-height: 23px;
 }
 .photo{
 	position:absolute;
-	top:22px;
+	top:19px;
 	left:-3px;
 }	
 .updates__title{
-	padding-top:28px;
+	padding-top:24px;
 	padding-left:20px;
 }
 .updates__list1{
 	background: url(../img/img_circle.png) 20px 2px no-repeat;
 }
 .updates__list2{
-	background: url(../img/img_circle1.png) 20px 2px no-repeat;
+	background: url(../img/img_circle1.png) 20px 4px no-repeat;
 }
 .updates__list3{
-    background: url(../img/img_circle2.png) 20px 2px no-repeat;
+    background: url(../img/img_circle2.png) 20px 4px no-repeat;
 }
 .updates__subtitle{
 	padding-top:8px;
 	padding-left:20px;
 }
 .updates__content{
-	margin-left:87px;
-	padding-top:8px;
+	margin-left: 87px;
+    padding-top: 7px;
+    position: relative;
+    overflow: hidden;
+    height: 15px;
 }
 .updates__read{
 	margin-right:3px;
-	padding-top:7px;
+	padding-top:5px;
 }
 .updates--sliderbox{
     margin-left:21.5%;
@@ -125,43 +160,50 @@
 	padding: 29px 0px;
 }
 .prefooter{
-	height:397px;
+	height:394px;
 }
 .prefootercontainer,.footercontainer{
 	min-width:768px;
 }
 .prefooter__box,.prefooter__box1 {
-    margin-top: 11.1%;
-	width:29%;
-    margin-right: 4%;
+    margin-top: 12.1%;
+    width: 30%;
+    padding-left: 3%;
+    box-sizing: border-box;
 }
 .prefooter__logo{
-	padding-left: 20px;
+	padding-left: 0px;
 }
 .prefooter__title{
 	font: 24px "League Gothic Regular", Arial,sans-serif;
 	letter-spacing: 0.6px;
 }
 .prefooter__subtitle{
-	margin-top:5px;
+	margin-top:7px;
 }
 .prefooter__content{
-	line-height:19px;
+	line-height: 23px;
+    position: relative;
+    overflow: hidden;
+    height: 109px;
 }
 footer{
 	height:200px;
 	box-sizing: border-box;
 }
 .menu--footer{
-	margin-left:2px;
+	margin-left:12px;
 	padding-top:42px;
 }
 .menu__item--footer{
 	padding-left:9px;
 }
+.menu__link--footer{
+	font: 20px "League Gothic Regular", Arial,sans-serif;
+}
 .footer__design{
 	margin-top:63px;
-	margin-right:5px;
+	margin-right:22px;
 }
 }
 @media screen and (min-width: 480px) and (max-width: 767px){ 
@@ -175,16 +217,16 @@ footer{
 .menu320-480{
     z-index:10;
 	position:absolute;
-	top:138px;
-	left:102px;
+	top:142px;
+	left:116px;
 }
 .menu{
     opacity:0;
 }
 .slider{
-	height:250px;
+	height:246px;
 	width:100%;
-	margin:6.2% auto 20.9%;
+	margin:7.2% auto 21.3%;
 }
 .slcontainer{
 	max-width:480px;
@@ -193,8 +235,8 @@ footer{
 	width:40%;
 	height:300px;
 	position:absolute;
-	top:-8px;
-	left:266px;
+	top:-9px;
+	left:258px;
 	background:url(../img/phone480.png)no-repeat;
 }
 .phone{
@@ -203,8 +245,8 @@ footer{
 .left__slcontainer{
 	width:60%;
 	position:absolute;
-	top:90px;
-	left:0px;
+	top:88px;
+	left:9px;
 }
 .slcontainer__title{
    	font: 38px "League Gothic Regular", Arial,sans-serif;
@@ -221,21 +263,21 @@ footer{
 }
 .arrow_left{
 	position:absolute;
-	top:17px;
-	left:3px;
+	top:19px;
+	left:-12px;
 }
 .arrow_right{
 	position:absolute;
-	top:113px;
-	left:190px;
+	top:114px;
+	left:198px;
 }
 .sliderbox{
 	position:absolute;
-	top:72%;
+	top:67%;
 	left:43%;
 }
 .aboutcontainer, .about{
-	height:598px;
+	height:600px;
 	width:100%;
 	box-sizing:border-box;
 }
@@ -243,29 +285,33 @@ footer{
 	width:450px;
 }
 .aboutbox__key, .aboutbox__msg, .aboutbox__sheet{
-    margin-top:8.4%;
-	width:95%;
+    margin-top:16.4%;
+	margin-bottom: -12%;
+	width:100%;
 	float:none;
 }
 .aboutbox__title{
 	font: 24px "League Gothic Regular", Arial,sans-serif;
-	padding-left:10%;
+	padding-left:16.3%;
 }
 .aboutbox__content{
-	padding-top:7px;
-    line-height:24px;
-    padding-left:10%;	
-	padding-right:2%;
+	padding-top: 1px;
+    line-height: 24px;
+    padding-left: 17.2%;
+    padding-right: 0%;
+    position: relative;
+    overflow: hidden;
+    height: 72px;
 }
 .aboutbox__read{
-	margin-right:0px;
-	margin-top:20px;
+	margin-right:5px;
+	margin-top:14px;
 }
 .aboutbox__key{
-    background: url(../img/sprite.png) -56px 4px no-repeat;	
+    background: url(../img/sprite.png) -56px 10px no-repeat;	
 }
 .aboutbox__msg{
-    background: url(../img/sprite.png) -24px -26px no-repeat;	
+    background: url(../img/sprite.png) -25px -26px no-repeat;	
 }
 .aboutbox__sheet{
     background: url(../img/sprite.png) 7px -50px no-repeat;	
@@ -280,10 +326,16 @@ footer{
 	position:relative;
 }
 .author{
-	margin-left:45px;
+	margin-left:42px;
 	height:272px;
 	width:89%;
 	float:none;
+}
+.author__title{
+	padding-top:23px;
+}
+.author__content{
+	padding-top:12px;
 }
 .updates{
 	float:none;
@@ -294,12 +346,12 @@ footer{
 	width:21%;
 	height:50px;
 	position:absolute;
-	top:342px;
-	left:140px;
+	top:340px;
+	left:132px;
 }
 .updates__title{
-	padding-top:80px;
-	padding-left:73px;
+	padding-top:84px;
+	padding-left:81px;
 }
 .updates__list1,.updates__list2,.updates__list3{
 	margin-top:17px;
@@ -307,24 +359,27 @@ footer{
 	overflow:hidden;
 }
 .updates__list1{
-	background: url(../img/img_circle.png) 71px 2px no-repeat;
+	background: url(../img/img_circle.png) 82px -2px no-repeat;
 }
 .updates__list2{
-	background: url(../img/img_circle1.png) 71px 2px no-repeat;
+	background: url(../img/img_circle1.png) 82px 0px no-repeat;
 }
 .updates__list3{
-    background: url(../img/img_circle2.png) 71px 2px no-repeat;
+    background: url(../img/img_circle2.png) 82px -1px no-repeat;
 }
 .updates__subtitle{
-	margin-left:136px;
+	margin-left:147px;
 }
 .updates__content{
-	margin-left:136px;
-	padding-top:10px;
+    margin-left: 147px;
+    padding-top: 1px;
+    position: relative;
+    overflow: hidden;
+    height: 17px;
 }
 .updates__read{
-	margin-right:1px;
-	padding-top:15px;
+	margin-right:-6px;
+	padding-top:8px;
 }
 .logos{
 	height:233px;
@@ -335,19 +390,22 @@ footer{
 	display:none;
 }
 .prefooter{
-	height:670px;
+	height:667px;
    	width:100%;
 }
 .prefooter__box,.prefooter__box1{
-	margin-top:8.5%;
+	margin-top:10.5%;
 	width:87%;
 	float:none;
     margin-right:5%;
-	margin-left:5%;
+	margin-left:3%;
 }
 footer{
 	height:200px;
 	width:100%;
+}
+.menu--footer{
+	padding-top:44px;
 }
 .menu__item--footer{
 	padding-right:5px;
@@ -359,13 +417,14 @@ footer .menu__link{
 }
 .footer__design{
 	float:none;
-	margin-top:50px;
+	margin-top: 59px;
+    margin-left: 10px;
 	text-align:center;
 }
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
 header{
-	height:523px;
+	height:516px;
 	width:100%;
 }
 .container,.aboutcontainer,.authorcontainer,.prefootercontainer,.footercontainer{
@@ -377,8 +436,8 @@ header{
 .menu320-480{
     z-index:10;
 	position:absolute;
-	top:75%;
-	left:11%;
+	top:83%;
+	left:13%;
 }
 .menu{
   opacity:0;
@@ -394,8 +453,8 @@ header{
 }
 .right__slcontainer{
 	position:absolute;
-	top:-21px;
-	left:130px;
+	top:1.8%;
+	left:48%;
 	height:288px;
 	width:10px;
 }
@@ -405,16 +464,16 @@ header{
 .left__slcontainer{
 	width:220px;
 	position:absolute;
-	top:17%;
-	left:20%;
+	top:25%;
+	left:21%;
 }
 .slcontainer__title{
    	font: 36px "League Gothic Regular", Arial,sans-serif;
 }
 .slcontainer__subtitle{
     font: 18px "League Gothic Regular", Arial,sans-serif;
-   	line-height: 17px;
-    height: 16px;
+   	line-height: 10px;
+    height: 8px;
     position: relative;
     overflow: hidden;
 }
@@ -423,7 +482,7 @@ header{
 }
 .arrow_left{
 	position:absolute;
-	top:20px;
+	top:17px;
 	left:-61px;
 }
 .arrow_right{
@@ -433,8 +492,8 @@ header{
 }
 .sliderbox{
 	position:absolute;
-	top:60%;
-	left:36%;
+	top:59%;
+	left:40%;
 }
 .aboutcontainer{
 	width:100%;
@@ -449,35 +508,39 @@ header{
 	width:95%;
 }
 .aboutbox__key, .aboutbox__msg, .aboutbox__sheet{
-    margin-top:8.4%;
+    margin-top:23.4%;
+	margin-bottom: -16%;
 	width:95%;
 	float:none;
 }
 .aboutbox__title{
 	font: 24px "League Gothic Regular", Arial,sans-serif;
-	padding-left:17%;
+	padding-left:27%;
 }
 .aboutbox__content{
-	padding-top:7px;
-    line-height:20px;
-    padding-left:17%;	
+    padding-top: 2px;
+    line-height: 23px;
+    padding-left: 27%;
+    position: relative;
+    overflow: hidden;
+    height: 73px;	
 }
 .aboutbox__read{
-	margin-right: 0px;
+	margin-right: -13px;
     padding-top: 10px;
 }
 .aboutauthor{
-	height:783px;
+	height:787px;
 }
 .authorcontainer{
-	padding-top:100px;
+	padding-top:72px;
 	height:783px;
 	position:relative;
 }
 .author{
 	margin-left:24px;
 	height:271px;
-	width:89%;
+	width:85%;
 	float:none;
 }
 .author__title{
@@ -486,12 +549,15 @@ header{
 	padding-top:10px;
 }
 .author__content{
-	margin-left: 30px;
-    padding-top: 5px;
-    padding-right: 10px;
-    line-height: 17px;
+	margin-left: 39px;
+    padding-top: 32px;
+    padding-right: 42px;
+    line-height: 21px;
     letter-spacing: 0.1px;
     text-align: justify;
+    position: relative;
+    overflow: hidden;
+    height: 157px;
 }
 .updates{
 	float:none;
@@ -501,12 +567,12 @@ header{
 .updates--sliderbox{
 	width:33%;
 	position:absolute;
-	top:377px;
-	left:57px;
+	top:342px;
+	left:80px;
 }
 .updates__title{
-	padding-top:80px;
-	padding-left:53px;
+	padding-top:85px;
+	padding-left:20px;
 }
 .updates__list1,.updates__list2,.updates__list3{
 	margin-top:14px;
@@ -514,29 +580,32 @@ header{
 	overflow:hidden;
 }
 .updates__list1{
-	background: url(../img/img_circle.png) 0px 2px no-repeat;
+	background: url(../img/img_circle.png) 21px -1px no-repeat;
 }
 .updates__list2{
-	background: url(../img/img_circle1.png) 0px 2px no-repeat;
+	background: url(../img/img_circle1.png) 21px -1px no-repeat;
 }
 .updates__list3{
-    background: url(../img/img_circle2.png) 0px 2px no-repeat;
+    background: url(../img/img_circle2.png) 22px 2px no-repeat;
 }
 .updates__subtitle{
-	margin-left:70px;
-	margin-top:5px;
+	margin-left:86px;
+	margin-top:-4px;
 	height:17px;
 	width:71%;
 	position:relative;
 	overflow:hidden;
 }
 .updates__content{
-	margin-left:70px;
-	padding-top:5px;
+	margin-left: 86px;
+    padding-top: 7px;
+    position: relative;
+    overflow: hidden;
+    height: 17px;
 }
 .updates__read{
-	margin-right:16px;
-	padding-top:15px;
+	margin-right:14px;
+	padding-top:2px;
 }
 .logos{
 	height:422px;
@@ -557,7 +626,8 @@ footer {
 }
 .footer__design{
 	float:none;
-	margin-top:37px;
+	margin-top:43px;
+	margin-left:17px;
 	text-align:center;
 }
 }
