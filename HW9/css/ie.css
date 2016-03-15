@@ -1,0 +1,19 @@
+.header{
+ background-image: url(../img/logo.jpg);
+ -ms-background-position-x: center;
+ -ms-background-position-x: center;
+}
+.logo{
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='#2b2332')";
+}
+.menu320-480{
+	display:none;
+}
+.slider{
+    filter:alpha(opacity=20);
+    background-color: black;
+}
+.about{
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#745083,endColorstr=#35273c);
+  	box-shadow:1px 0px 3px rgba(43,35,50,0.5);
+}
