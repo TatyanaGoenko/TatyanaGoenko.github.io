@@ -6,8 +6,8 @@
  background-attachment:fixed;
  height:873px;
  }
-.logo{
--ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=190, Color='#ffffff')";
+.logo {
+filter: Shadow(Color=#666666, Direction=135, Strength=5);
 }
 .menu320-480{
 	display:none;
