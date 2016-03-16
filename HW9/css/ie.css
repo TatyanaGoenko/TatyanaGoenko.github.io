@@ -1,10 +1,13 @@
 .header{
  background-image: url(../img/logo.jpg);
  -ms-background-position-x: center;
- -ms-background-position-x: center;
-}
+ -ms-background-position-y: center;
+ background-repeat:no-repeat;
+ background-attachment:fixed;
+ height:873px;
+ }
 .logo{
--ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='#2b2332')";
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=190, Color='#ffffff')";
 }
 .menu320-480{
 	display:none;
@@ -12,8 +15,18 @@
 .slider{
     filter:alpha(opacity=20);
     background-color: black;
+	margin:100px auto 100px;
 }
 .about{
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#745083,endColorstr=#35273c);
-  	box-shadow:1px 0px 3px rgba(43,35,50,0.5);
+}
+.aboutbox__link{
+filter: glow(color=#ffffff, Direction=135,strength=2); 	
+}
+.footer{
+	height:120px;
+	background-image: url(../img/img_foot.png);
+    -ms-background-position-x: center;
+    -ms-background-position-y: center;
+    background-repeat:no-repeat;
 }

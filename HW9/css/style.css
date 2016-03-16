@@ -199,6 +199,8 @@
 	border:1px solid black;
 	background: linear-gradient(to bottom, #745083, #35273c);
 	box-shadow:1px 0px 3px rgba(43,35,50,0.5);
+	-moz-box-shadow: 1px 0px 3px rgba(43,35,50,0.5);
+    -webkit-box-shadow: 1px 0px 3px rgba(43,35,50,0.5);
 }
 .aboutbox__key, .aboutbox__msg, .aboutbox__sheet{
     margin-top:7.4%;
@@ -258,6 +260,8 @@
 	width:45%;
 	background-color:white;
 	box-shadow:1px 0px 3px rgba(180,180,180,0.5);
+	-moz-box-shadow: 1px 0px 3px rgba(180,180,180,0.5);
+    -webkit-box-shadow: 1px 0px 3px rgba(180,180,180,0.5);
 	position:relative;
 	float:left;
 	clear:both;
@@ -353,6 +357,8 @@
 	height:122px;
 	background-color:white;
 	box-shadow:3px 3px 10px rgba(180,180,180,.75);
+	-moz-box-shadow: 3px 3px 10px rgba(180,180,180,.75);
+    -webkit-box-shadow: 3px 3px 10px rgba(180,180,180,.75);
 }
 .logos_picture{
 	display:block;
