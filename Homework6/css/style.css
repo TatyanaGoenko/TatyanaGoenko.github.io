@@ -95,7 +95,7 @@ nav img{
 .mainmenu li{
 	float:left;
 	font: 13.64px Lucida Sans Unicode,Arial,sans-serif;
-	margin:7px 33px 6px -3px;
+	margin:7px 30px 6px -3px;
 	}
 .mainmenu li a{
 	color:#b1bcc0;
@@ -108,12 +108,12 @@ nav img{
 	margin-left:126px;
 }
  .mainmenu li:hover{
-	width:120px;
-	height:26px;
+	width:100px;
+	height:22px;
 	text-align:center;
 	background: linear-gradient(to top, #0c3357, #1f6787);
 	border-radius: 34px;
-	margin:3px 0px 0px 0px;
+
 	}
 	.mainmenu li a:hover{
 	color: #ffffff;
