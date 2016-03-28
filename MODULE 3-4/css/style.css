@@ -8,6 +8,10 @@
     font-weight: normal;
     font-style: normal;
 }
+body{
+	background-color: #a6e9e5;
+}
+
 .container{
 	margin: 0 auto;
 	background: linear-gradient(to bottom, #4cf5f7, #188ab9);
