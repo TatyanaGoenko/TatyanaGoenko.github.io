@@ -1,0 +1,56 @@
+@font-face {
+    font-family:'Helvetica Neue';
+    src: url('../fonts/helveticaneue-thin-webfont.eot');
+    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	background-color: #c9e1de;
+}
+.container{
+	margin: 100px auto 20px;
+	width:500px;
+	height:300px;
+	background-color:#80bcb4;
+	border: 4px solid black;
+}
+.timer{
+	margin-top:20px;
+	height:165px;
+}
+.time{
+	font: 96px "League Gothic Regular", Arial,sans-serif;
+	text-align:center;
+	margin: 0px;
+}
+.mtime{
+	font: 42px "League Gothic Regular", Arial,sans-serif;
+	width:411px;
+	text-align:center;
+	margin-left:500px;
+}
+
+.boxing{
+	width:100%;
+	height:100px;
+	margin: 0 365px;
+	
+}
+.btn {
+	margin: 10px 15px;
+}
+.btn-success, .btn-warning, .btn-danger{
+	width:100px;
+	height:50px;
+}
+.start, .split, .reset{
+	float:left;
+}
+.timer_list{
+	text-align:center;
+	font: 42px "League Gothic Regular", Arial,sans-serif;
+}
