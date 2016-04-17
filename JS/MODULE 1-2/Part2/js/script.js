@@ -6,13 +6,13 @@
 }
     console.log('массив', arr);
   var userName = prompt('Введите имя пользователя');
-  var z;
-	for (var i=0;i<arrNumber;i++){ 
+  var coincidence;
+	for (var i=0;i < arrNumber;i++){ 
 	if (userName == arr[i]){
-	z=1;
+	coincidence=1;
 }
 }
-  if (z==1){
+  if (coincidence==1){
     alert (userName+' , поздравляем вы зашли на сайт!!!' );
 } 
   else {
